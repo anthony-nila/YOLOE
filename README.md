@@ -127,7 +127,7 @@ wget https://docs-assets.developer.apple.com/ml-research/datasets/mobileclip/mob
 If desired objects are not identified, pleaset set a **smaller** confidence threshold, e.g., for visual prompts with handcrafted shape or cross-image prompts.
 ```bash
 # Optional for mirror: export HF_ENDPOINT=https://hf-mirror.com
-pip install gradio==4.42.0 gradio_image_prompter==0.1.0 fastapi==0.112.2 huggingface-hub==0.26.3 gradio_client==1.3.0
+pip install gradio==4.42.0 gradio_image_prompter==0.1.0 fastapi==0.112.2 huggingface-hub==0.26.3 gradio_client==1.3.0 pydantic==2.10.6
 python app.py
 # Please visit http://127.0.0.1:7860
 ```
