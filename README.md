@@ -303,18 +303,3 @@ python export.py
 The code base is built with [ultralytics](https://github.com/ultralytics/ultralytics), [YOLO-World](https://github.com/AILab-CVC/YOLO-World), [MobileCLIP](https://github.com/apple/ml-mobileclip), [lvis-api](https://github.com/lvis-dataset/lvis-api), [CLIP](https://github.com/openai/CLIP), and [GenerateU](https://github.com/FoundationVision/GenerateU).
 
 Thanks for the great implementations! 
-
-## Citation
-
-If our code or models help your work, please cite our paper:
-```BibTeX
-@misc{wang2025yoloerealtimeseeing,
-      title={YOLOE: Real-Time Seeing Anything}, 
-      author={Ao Wang and Lihao Liu and Hui Chen and Zijia Lin and Jungong Han and Guiguang Ding},
-      year={2025},
-      eprint={2503.07465},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.07465}, 
-}
-```
